@@ -1,0 +1,54 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #111;
+  position: relative;
+}
+body:hover {
+  cursor: none;
+}
+.target {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.target img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* coord_X,Y */
+.coord {
+  position: absolute;
+  background-color: #fff;
+}
+.coord_X {
+  width: 100%;
+  height: 1px;
+  top: 50%;
+}
+.coord_Y {
+  width: 1px;
+  height: 100%;
+  left: 50%;
+}
+
+/* coordinates */
+.coordinates {
+  color: #fff;
+  padding: 3%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
