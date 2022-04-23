@@ -16,9 +16,7 @@ body:hover {
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
   border: 1px solid #fff;
   border-radius: 50%;
 }
@@ -33,15 +31,13 @@ body:hover {
   position: absolute;
   background-color: #fff;
 }
-.coord_X {
+.coord_Y {
   width: 100%;
   height: 1px;
-  top: 50%;
 }
-.coord_Y {
+.coord_X {
   width: 1px;
   height: 100%;
-  left: 50%;
 }
 
 /* coordinates */
@@ -49,6 +45,4 @@ body:hover {
   color: #fff;
   padding: 3%;
   position: absolute;
-  left: 50%;
-  top: 50%;
 }
